@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemotePlayHook", "RemotePlayHook.csproj", "{8B2FCFF5-48E9-4520-B7BF-974E5E8917A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B2FCFF5-48E9-4520-B7BF-974E5E8917A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2FCFF5-48E9-4520-B7BF-974E5E8917A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2FCFF5-48E9-4520-B7BF-974E5E8917A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2FCFF5-48E9-4520-B7BF-974E5E8917A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B17F3504-4F4D-4960-94DC-FF7B635C10BD}
+	EndGlobalSection
+EndGlobal
