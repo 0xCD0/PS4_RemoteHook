@@ -79,6 +79,7 @@
             this.text_Share = new System.Windows.Forms.TextBox();
             this.text_Option = new System.Windows.Forms.TextBox();
             this.text_TouchRight = new System.Windows.Forms.TextBox();
+            this.link_page = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -580,11 +581,23 @@
             this.text_TouchRight.TabIndex = 91;
             this.text_TouchRight.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Text_TouchRight_MouseClick);
             // 
+            // link_page
+            // 
+            this.link_page.AutoSize = true;
+            this.link_page.Location = new System.Drawing.Point(495, 317);
+            this.link_page.Name = "link_page";
+            this.link_page.Size = new System.Drawing.Size(66, 12);
+            this.link_page.TabIndex = 92;
+            this.link_page.TabStop = true;
+            this.link_page.Text = "Homepage";
+            this.link_page.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_page_LinkClicked);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(725, 389);
+            this.Controls.Add(this.link_page);
             this.Controls.Add(this.text_TouchRight);
             this.Controls.Add(this.text_Option);
             this.Controls.Add(this.text_Share);
@@ -644,7 +657,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "Remote Play Hook";
+            this.Text = "Remote Play Hook V200101";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -709,6 +722,7 @@
         private System.Windows.Forms.TextBox text_Share;
         private System.Windows.Forms.TextBox text_Option;
         private System.Windows.Forms.TextBox text_TouchRight;
+        private System.Windows.Forms.LinkLabel link_page;
     }
 }
 

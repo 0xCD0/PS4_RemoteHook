@@ -643,5 +643,9 @@ namespace RemotePlayHook {
             text_R3.Text = keycode.R3.ToString();
         }
         #endregion
+
+        private void link_page_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
+            System.Diagnostics.Process.Start("https://mos6502.tistory.com/");
+        }
     }
 }
